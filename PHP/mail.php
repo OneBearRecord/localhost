@@ -33,3 +33,7 @@ $carta .= "Correo: $correo \n";
 $carta .= "Pago: $_FILES";
 
 //Enviando mensaje
+
+mail($destinatario, $asunto, $carta);
+
+?>
