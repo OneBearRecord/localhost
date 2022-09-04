@@ -23,4 +23,4 @@ if($_FILES["archivo"]) {
     }
 } else {
     echo "Error al subir archivo";
-}
+}}
