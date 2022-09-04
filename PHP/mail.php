@@ -23,4 +23,18 @@ if($_FILES["archivo"]) {
     }
 } else {
     echo "Error al subir archivo";
-}}
+}
+
+
+//datos para el correo
+
+$destinatario = "yeidenn1@gmail.com";
+$asunto = "contacto desde nuestra web";
+
+$carta = "De: $nombre \n";
+$carta .= "Apellido: $apellidos \n";
+$carta .= "Telefono: $telefono \n";
+$carta .= "Correo: $correo \n";
+$carta .= "Pago: $_FILES";
+
+//Enviando mensaje
