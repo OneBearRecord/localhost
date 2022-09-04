@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>One Bear Record</title>
+    <link rel="icon" type="IMG/png" href="./IMG/imgobricono.png">
+    <link rel="stylesheet" href="./CSS/formulario.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+</head>
+<body>
+
+    <!--
+        Encabezado del registro
+    -->
+    <form action="./PHP/mail.php" class="form-register" method="post" enctype="multipart/form-data">
+        <h1 class="form__title">Formulario</h1>
+
+    <!--
+        Primera casilla
+    -->    
+        <div class="container--flex">
+            <label for="" class="form__label">Nombre</label>
+            <input type="text" class="form__input" name="nombre" required>
+        </div>
+    
+    <!--
+        Segunda casilla
+    -->    
+        <div class="container--flex">
+            <label for="" class="form__label">Apellidos</label>
+            <input type="text" class="form__input" name="apellidos" required>
+        </div>
+
+    <!--
+        Tercera casilla
+    -->    
+    <div class="container--flex">
+        <label for="" class="form__label">Telefono</label>
+        <input type="text" class="form__input" name="telefono" required>
+    </div>
+    
+
+    <!--
+        Cuarta casilla
+    -->    
+    <div class="container--flex">
+        <label for="" class="form__label">Correo Electronico</label>
+        <input type="email" class="form__input" name="email" required>
+    </div>
+
+    <!--
+        Quinta casilla
+    -->
+        <div class="container--flex">
+            <label for="" class="form__label">Fecha</label>
+            <input type="date" class="form__input" name="fecha" required>
+        </div>
+
+    <!--
+        Sexta casilla (file)
+    -->
+        <input type="file" name="archivo" class="form__file" required>
+
+    <!--
+        Septima casilla (boton)
+    -->
+        <input type="submit" class="form__submit">
+
+    </form>
+
+</body>
+</html>

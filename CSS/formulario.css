@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=DynaPuff&family=Fredoka+One&family=Oswald:wght@200;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-register {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+}
+
+.form__title {
+    margin-top: 0;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.form__label, .form__input {
+    display: block;
+}
+
+.form__label {
+    width: 30%;
+}
+
+.form__input {
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.form__file {
+    font-size: 1em;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.container--flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form__submit {
+    width: 100%;
+    background: #3E2E6F;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+}

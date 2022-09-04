@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=DynaPuff&family=Fredoka+One&family=Oswald:wght@200;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.contenedor {
+    width: 50%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.contenido {
+    background-color: mintcream;
+}
+
+.contenedor-2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contenedor-2 .contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.contenedor-2 .contenido nav a {
+    background: rgba(6, 255, 243, 0.533);
+    bottom: 15px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.contenedor-2 h1 {
+    color: peru;
+    font-size: 50px;
+}
+
+.contenedor-2 nav a {
+    color: rgb(20, 22, 17);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+/* estilos del cuerpo */
+
+
+.contenedor-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contenedor-3 h2 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: black;
+}
